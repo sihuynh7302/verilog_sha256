@@ -15,7 +15,7 @@ initial begin
 clk = 1'b0;
 input_valid = 1'b1;
 blocks = 0;
-fd = $fopen("E:/KHOA/FREELANCE/SHA-256/SHA-256-lite/string-AutoIT_exchage_hex.txt","r");  
+fd = $fopen("E:/SHA-256/SHA-256-lite/string_hex.txt","r");  
 
 rst = 1'b1;
 #2;
